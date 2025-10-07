@@ -58,8 +58,8 @@ export async function getDbUserId() {
 
   const user = await getUserByClerkId(clerkId);
 
-  //if (!user) throw new Error("User not found");
-  if (!user) return;
+  if (!user) throw new Error("User not found (bcz function called before user added in db)");
+  //if (!user) return;
 
   return user.id;
 }
