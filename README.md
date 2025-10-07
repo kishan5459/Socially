@@ -1,6 +1,6 @@
 <h1 align="center">✨ Socially - A Social Media Platform ✨</h1>
 
-[Delployed At Here](https://google.com)
+Check out the live on Vercel: `[https://socially-liard-beta.vercel.app/]`
 
 Highlights:
 
